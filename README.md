@@ -83,7 +83,8 @@ G = nx.DiGraph()
 # Define nodes and edges
 
 nodes=['Burglary','Earthquake','Alarm','JohnCalls','MaryCalls']
-edges=[('Burglary','Alarm'),('Earthquake','Alarm'),('Alarm','JohnCalls'),('Alarm','MaryCalls')]
+edges=[('Burglary','Alarm'),('Earthquake','Alarm'),('Alarm','JohnCalls'),
+('Alarm','MaryCalls')]
 
 #Add nodes and edges to the graph
 
